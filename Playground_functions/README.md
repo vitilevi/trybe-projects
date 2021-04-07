@@ -289,7 +289,7 @@ String retornada:
 
 **O que será verificado:**
 
-- Retorne a sugestão de quantos copos de água deve-se beber ao receber uma string
+- Retorne a sugestão de quantos copos de água deve-se beber ao receber uma string.
 
 ---
 
