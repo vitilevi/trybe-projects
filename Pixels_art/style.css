@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background-color: #ccc; */
+  background-image: url(images/sunset.jpg);
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+}
+
+body h3 {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 15px;
+}
+
+nav {
+  text-align: center;
+}
+
+#title {
+  text-align: center;
+  margin: 15px 0 3px;
+  list-style: none;
+}
+
+#color-palette li {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+
+#main-wrapper h2 {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#pixel-board {
+  margin: auto;
+  min-height: 10px;
+}
+
+.pixel {
+  width: 40px;
+  height: 40px;
+}
+
+#footer {
+  font-family: Nanum Gothic, sans-serif;
+  text-align: center;
+  color: #aaa;
+}
+
+#footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: #d55;
+}
+
+.social {
+  width: 20px;
+  padding-top: 5px;
+  margin-top: 4px;
+  position: relative;
+  top: 4px;
+}
+
+#span-footer {
+  background-color: #ddd;
+  padding: 6px;
+  border-radius: 7px;
+}
+
+.setup {
+  width: 130px;
+  border-radius: 7px;
+  padding: 2px;
+}
+
+#button-section {
+  text-align: center;
+
+}
+
+.button {
+  margin: 5px 0 15px;
+  background-color: rgb(255, 148, 49);
+  padding: 2px;
+  border-radius: 7px;
+  color: #333;
+}
