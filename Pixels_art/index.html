@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ot-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nanum+Gothic:wght@400;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/icon.jpg" type="image/png">
+  <title>Projeto Pixels Art!</title>
+</head>
+<body>
+  <section id = 'main-wrapper'>
+    <header>
+      <h1 id = 'title'>Paleta de Cores</h1>
+    </header>
+    <nav>
+      <ul id = 'color-palette'>
+        <li class = 'color'></li>
+        <li class = 'color'></li>
+        <li class = 'color'></li>
+        <li class = 'color'></li>
+      </ul>
+    </nav>
+    <!-- <h3>Selecione o número de colunas: </h3> -->
+    <div id = 'button-section'>
+      <input id = 'board-size' class = 'setup' type = "number" placeholder = "Insira linhas de 5 a 50" max = '50' min = '1'>
+      <button id = 'generate-board' class = 'button'>VQV</button>
+      <button id = 'clear-board' class = 'button'>Limpar</button>
+    </div>
+    <h2>Faça sua arte!</h2>
+    <section id = 'pixel-board'>
+    </section>
+  </section>
+  <footer id="footer">
+    <h4>Developed by Victor Faria, 2021, email the <a href="mailto:vitilevi@hotmail.com">webmaster.</a></h4> <span id ='span-footer'><a href="https://github.vmfaria.com" target="_blank"><img class="social" alt="Icone github" src="images/github.png" /></a> <a href="https://linkedin.vmfaria.com" target="_blank"><img class="social" alt="Icone linkedin" src="images/linkedin.png" /></a></span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
