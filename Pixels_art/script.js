@@ -13,11 +13,7 @@ function createDivBoard(size) {
   const numberOfTiles = size;
   for (let index = 0; index < numberOfTiles; index += 1) {
     const tile = document.createElement('div');
-    const tileStyle = tile.style;
     tile.classList.add('pixel');
-    tileStyle.float = 'left';
-    tileStyle.border = '1px solid black';
-    tileStyle.backgroundColor = 'white';
     pixelBoard.appendChild(tile);
   }
 }
