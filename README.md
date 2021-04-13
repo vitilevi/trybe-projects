@@ -2,4 +2,5 @@
 
 - 1 - Lessons Learned
 - 2 - Playground Functions
-- 3 - Pixels art
+- 3 - Pixels Art
+- 4 - To Do List

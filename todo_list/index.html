@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Work+Sans:ital,wght@0,400;1,200;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/20d4bb4746.js" crossorigin="anonymous"></script>
+  <title>To do list</title>
+</head>
+<body>
+  <section id = 'header'>
+    <h1>Minha Lista de Tarefas</h1>
+    <p id = 'funcionamento'>Clique duas vezes em um item para marcá-lo como completo</p>
+    <div id = 'input-div'>
+      <input id = 'texto-tarefa' type = 'text' placeholder="Insira sua atividade">
+      <button id = 'criar-tarefa'><i class="fas fa-plus-square"></i></button>
+      <button id = 'remover-selecionado' alt = 'Remove atividade selecionada'><i class="fas fa-trash-alt"></i></button>
+    </div>
+  </section>
+  <div id = 'div-list'>
+    <ol id = 'lista-tarefas'></ol>
+  
+  <section id = 'buttons'>
+    <button id = 'mover-cima'><i class="fas fa-chevron-up"></i></button>
+    <button id = 'mover-baixo'><i class="fas fa-chevron-down"></i></button>    
+    <button id = 'remover-finalizados'>Remover finalizados</button>
+    <button id = 'apaga-tudo'>Apagar tudo</button>
+    <button id = 'salvar-tarefas'>Salvar tarefas</button>
+  </div>
+  </section>
+
+  <footer id="footer">
+    <h4>Developed by Victor Faria, 2021, email the <a href="mailto:vitilevi@hotmail.com">webmaster.</a></h4> <span id ='span-footer'><a href="https://github.vmfaria.com" target="_blank"><img class="social" alt="Icone github" src="images/github.png" /></a> <a href="https://linkedin.vmfaria.com" target="_blank"><img class="social" alt="Icone linkedin" src="images/linkedin.png" /></a></span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
