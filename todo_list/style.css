@@ -1,0 +1,148 @@
+* body {
+  font-family: Montserrat, sans-serif;
+  background-image: linear-gradient(rgb(255 , 73 , 76) , rgb(255 , 92 , 127));
+  height: 100vh;
+}
+
+h1 , p , #input-div {
+  margin-left: 10px;
+}
+
+p {
+  margin-top: -15px;
+  font-family: Work Sans, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.selected {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+#lista-tarefas {
+  padding-top: 10px;
+  margin-left: -5px;
+}
+
+#div-list {
+  width: 600px;
+  min-height: 30px;
+  border-radius: 10px;
+  background-color: rgb(204 , 255 , 0);
+  box-shadow: inset 2px -2px gray;
+  padding-left: 10px;
+  margin: auto;
+}
+
+#texto-tarefa {
+  height: 25px;
+  box-shadow: inset 2px -2px gray;
+}
+
+#header {
+  background-color: white;
+  width: 600px;
+  height: 110px;
+  border-radius: 10px;
+  padding-left: 10px;
+  margin: auto;
+  box-shadow: inset 2px -2px gray;
+}
+
+#criar-tarefa {
+  border-radius: 5px;
+  background-color: lime;
+  height: 30px;
+  box-shadow: inset 2px -2px gray;
+}
+
+#mover-cima {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: lime;
+  display: inline-block;
+  box-shadow: inset 2px -2px gray;
+}
+
+#mover-baixo {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  display: inline-block;
+  box-shadow: inset 2px -2px gray;
+}
+
+#remover-finalizados {
+  border-radius: 5px;
+  display: inline-block;
+  height: 30px;
+  box-shadow: inset 2px -2px gray;
+}
+
+#remover-selecionado {
+  border-radius: 5px;
+  background-color: red;
+  height: 30px;
+  box-shadow: inset 2px -2px gray;
+}
+
+#apaga-tudo {
+  border-radius: 5px;
+  background-color: red;
+  display: inline-block;
+  height: 30px;
+  box-shadow: inset 2px -2px gray;
+}
+
+#salvar-tarefas {
+  border-radius: 5px;
+  background-color: lime;
+  display: inline-block;
+  height: 30px;
+  box-shadow: inset 2px -2px gray;
+}
+
+#buttons {
+  font-family: Nanum Gothic, monospace;
+  padding: 10px;
+}
+
+#footer {
+  font-family: Nanum Gothic, sans-serif;
+  text-align: center;
+  color: rgb(221 , 221 , 221);
+}
+
+#footer h4 {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+#footer a {
+  color: white;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: lime;
+}
+
+.social {
+  width: 20px;
+  padding-top: 5px;
+  margin-top: 4px;
+  position: relative;
+  top: 4px;
+}
+
+#span-footer {
+  background-color: rgb(221 , 221 , 221);
+  padding: 6px;
+  border-radius: 7px;
+}
