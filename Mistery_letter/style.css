@@ -1,0 +1,114 @@
+body {
+
+  --color1: rgba(0, 150, 0, 0.9);
+
+  --color2: rgba(0, 0, 0, 0.99);
+  background-image: radial-gradient(circle, var(--color1), var(--color2));
+}
+
+h1 {
+  color: white;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px rgba(200, 255, 0, 0.8);
+}
+
+header {
+  text-align: center;
+  font-family: monospace;
+}
+
+.newspaper {
+  background-color: antiquewhite;
+  font-family: Times New Roman, Times, serif;
+  font-weight: 700;
+}
+
+.magazine1 {
+  background-color: teal;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.magazine2 {
+  background-image: url('images/pink-pattern.png');
+  color: fuchsia;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+}
+
+.medium {
+  font-size: 20px;
+  padding: 8px;
+}
+
+.big {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.reallybig {
+  font-size: 40px;
+  padding: 15px;
+}
+
+.rotateleft {
+  transform: rotate(-5deg);
+}
+
+.rotateright {
+  transform: rotate(5deg);
+}
+
+.skewleft {
+  transform: skewX(10deg);
+}
+
+.skewright {
+  transform: skewX(-10deg);
+}
+
+#carta-contador {
+  margin-top: 15px;
+  color: rgba(238, 255, 0, 0.7);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+#input {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+#input input {
+  box-shadow: 3px 3px 3px rgba(255, 0, 0, 0.3);
+}
+
+#input button {
+  margin-left: 10px;
+  background-color: rgba(80, 255, 80, 0.7);
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgba(255, 0, 0, 0.3);
+}
+
+#input button:active {
+  transform: scale(0.9);
+}
+
+#response {
+  display: flex;
+  justify-content: center;
+}
+
+#response span {
+  box-shadow: 3px 3px 3px rgba(200, 255, 0, 0.8);
+}
+
+#error {
+  color: white;
+  padding: 3px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px rgba(200, 255, 0, 0.8);
+}
