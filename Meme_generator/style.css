@@ -1,0 +1,136 @@
+body {
+  font-family: monospace;
+
+  --color1: rgba(0 , 128 , 248 , 0.5);
+
+  --color2: rgba(100 , 255 , 100 , 0.5);
+  background-image: linear-gradient(to right , var(--color1) , var(--color2));
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+button {
+  border-radius: 10px;
+}
+
+header {
+  background-color: rgba(255 , 255 , 255 , 0.7);
+  border-radius: 5px;
+  width: 100%;
+}
+
+#text-input {
+  background-color: white;
+}
+
+#input {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+#input #meme-insert {
+  display: none;
+}
+
+#input label {
+  background-color: rgb(17 , 204 , 17);
+  margin-left: 5px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 7px;
+  box-shadow: 2px 2px 2px rgba(0 , 0 , 0 , 0.5);
+}
+
+#input label:active {
+  transform: scale(0.9);
+}
+
+#meme-image-container {
+  margin: 15px auto;
+  border: 1px solid black;
+  background-color: white;
+  width: 300px;
+  height: 300px;
+}
+
+#meme-text {
+  object-fit: contain;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  font-size: 30px;
+  color: white;
+  width: 300px;
+  overflow: hidden;
+}
+
+#meme-image {
+  position: absolute;
+  display: inline-block;
+  overflow: hidden;
+  height: 300px;
+  background-color: white;
+}
+
+.imagem {
+  object-fit: contain;
+  width: 300px;
+}
+
+#fire {
+  color: white;
+  background-color: red;
+  box-shadow: 2px 2px 2px rgba(0 , 0 , 0 , 0.5);
+}
+
+#water {
+  color: white;
+  background-color: blue;
+  box-shadow: 2px 2px 2px rgba(0 , 0 , 0 , 0.5);
+}
+
+#earth {
+  color: white;
+  background-color: green;
+  box-shadow: 2px 2px 2px rgba(0 , 0 , 0 , 0.5);
+}
+
+#fire:active , #water:active , #earth:active {
+  transform: scale(0.9);
+}
+
+.prememes {
+  width: 100px;
+  box-shadow: 2px 2px 2px rgba(0 , 0 , 0 , 0.5);
+  height: 100px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.prememes:active {
+  transform: scale(0.9);
+}
+
+#button-div {
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+}
+
+#meme-section {
+  display: flex;
+  justify-content: center;
+}
+
+#meme-section div {
+  margin: 0 5px;
+}
