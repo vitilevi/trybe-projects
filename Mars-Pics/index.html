@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./images/icon.png" type="image/x-icon">
+  <title>Mars Pictures</title>
+</head>
+<body>
+  <header>
+    <h1>Curiosity pics from mars!</h1>
+  </header>
+  <main>
+    <section id='date'>
+      <label for="date-insert">Pick a date</label>
+      <input type="date" name="date" id="date-insert" min="2012-08-06">
+      <span id="date-of-launch">Landing date: 08/06/2012</span>
+    </section>
+    <section id="filter">
+    </section>
+    <section id="labels">
+      <!-- <span>Camera List</span> -->
+      <span>'FHAZ - Front Hazard Avoidance Camera | RHAZ - Rear Hazard Avoidance Camera | MAST - Mast Cam | NAVCAM - Navigation Camera | CHEMCAM - Chemistry and Camera Complex | MAHLI - Mars Hand Lens Imager'</span>
+    </section>
+    <section id="results">
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
