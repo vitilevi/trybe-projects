@@ -20,3 +20,6 @@
 - 17 - Curiosity Stateful
 - 18 - Clone Slido
 - 19 - Frontend Online Store
+  
+  
+*last update: 24/06/21*
