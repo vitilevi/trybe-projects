@@ -1,0 +1,16 @@
+.game-counter {
+  font-size: 35px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  padding: 5px 5px;  
+  background-color: #fafafa;
+  width: 60px;
+  margin: 20px auto;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.game-container {
+  background: rgb(47,24,107);
+  padding-top: 20px;
+  height: 80vh;
+}

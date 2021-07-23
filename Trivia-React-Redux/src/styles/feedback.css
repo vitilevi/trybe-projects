@@ -1,0 +1,27 @@
+.feedback-container {
+  background: rgb(47,24,107);
+  height: 80vh;
+  padding-top: 20px;
+}
+
+.feedback-wrapper {
+  background-color: #fafafa;
+  width: 550px;
+  margin: 40px auto;
+  padding: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+}
+
+.feedback-message {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.feedback-score {
+  font-size: 20px;
+}
+
+.feedback-btn {
+  width: 180px;
+}
