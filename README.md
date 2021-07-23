@@ -20,6 +20,7 @@
 - 17 - Curiosity Stateful
 - 18 - Clone Slido
 - 19 - Frontend Online Store
+- 20 - Trivia React Redux
   
   
 *last update: 24/06/21*
