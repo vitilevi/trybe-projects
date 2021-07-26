@@ -5,6 +5,7 @@ import PlanetsContext from './PlanetsContext';
 
 export default function PlanetsProvider({ children }) {
   const [arrayOfPlanets, setArrayOfPlanets] = useState([]);
+  const [filterByName, setFilterByName] = useState('');
 
   useEffect(() => {
     const requestApi = async () => {
@@ -15,8 +16,16 @@ export default function PlanetsProvider({ children }) {
     requestApi();
   }, []);
 
+  const info = {
+    planets: arrayOfPlanets,
+    filters: {
+      filterByName,
+    },
+    setFilterByName,
+  };
+
   return (
-    <PlanetsContext.Provider value={ { planets: arrayOfPlanets } }>
+    <PlanetsContext.Provider value={ info }>
       { children }
     </PlanetsContext.Provider>
   );
