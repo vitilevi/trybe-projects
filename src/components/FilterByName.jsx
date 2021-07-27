@@ -12,7 +12,7 @@ export default function FilterByName() {
     <form>
       <input
         data-testid="name-filter"
-        placeholder="Insert name"
+        placeholder="Insira um nome"
         type="text"
         onChange={ handleInputChange }
       />

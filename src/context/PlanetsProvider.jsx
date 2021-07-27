@@ -6,6 +6,7 @@ import PlanetsContext from './PlanetsContext';
 export default function PlanetsProvider({ children }) {
   const [arrayOfPlanets, setArrayOfPlanets] = useState([]);
   const [filterByName, setFilterByName] = useState('');
+  const [filterByNumericValues, setFilterByNumericValues] = useState([]);
 
   useEffect(() => {
     const requestApi = async () => {
@@ -17,11 +18,13 @@ export default function PlanetsProvider({ children }) {
   }, []);
 
   const info = {
-    planets: arrayOfPlanets,
+    data: arrayOfPlanets,
     filters: {
       filterByName,
+      filterByNumericValues,
     },
     setFilterByName,
+    setFilterByNumericValues,
   };
 
   return (
