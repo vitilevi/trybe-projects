@@ -24,6 +24,7 @@ export default function NumericalFilters() {
       comparison,
       value,
     };
+    // remove a opção de filtro utilizada do select
     const filteredSelect = filters.filter((item) => item !== column);
     setFilters([...filteredSelect]);
     setFilterByNumericValues([...filterByNumericValues, obj]);

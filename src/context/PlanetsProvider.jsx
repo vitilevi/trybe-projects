@@ -7,8 +7,13 @@ export default function PlanetsProvider({ children }) {
   const [arrayOfPlanets, setArrayOfPlanets] = useState([]);
   const [filterByName, setFilterByName] = useState('');
   const [filterByNumericValues, setFilterByNumericValues] = useState([]);
+  const [order, setOrder] = useState({
+    column: 'name',
+    sort: 'ASC',
+  });
 
   useEffect(() => {
+    // Faz a requisição a API e salva o resultado no estado
     const requestApi = async () => {
       const planets = await fetchPlanetApi();
       planets.forEach((planet) => delete planet.residents);
@@ -23,8 +28,10 @@ export default function PlanetsProvider({ children }) {
       filterByName,
       filterByNumericValues,
     },
+    order,
     setFilterByName,
     setFilterByNumericValues,
+    setOrder,
   };
 
   return (

@@ -8,13 +8,16 @@ export default function Table() {
       filterByName,
       filterByNumericValues,
     },
+    order,
   } = useContext(PlanetsContext);
+
   // define um objeto de filtro padrão
   const defaultObj = {
     column: '',
     comparison: '',
     value: 0,
   };
+
   // define um objeto de filtro padrão caso não exista um
   const selectedFilter = filterByNumericValues.length
     ? filterByNumericValues[filterByNumericValues.length - 1] : defaultObj;
@@ -31,7 +34,6 @@ export default function Table() {
   // filtra o array de nome por filtros escolhidos
   const filteredByColumn = filteredByName.filter((planet) => {
     const selectedColumn = planet[column];
-
     switch (comparison) {
     case 'maior que':
       return Number(selectedColumn) > Number(value);
@@ -44,7 +46,32 @@ export default function Table() {
     }
   });
 
-  if (!data.length) return <h1>Loading...</h1>;
+  // Faz o sort inicial por nome
+  const sortByName = filteredByColumn.sort((a, b) => {
+    const NEGATIVE = -1;
+    const POSITIVE = 1;
+    return a.name > b.name ? NEGATIVE : POSITIVE;
+  });
+
+  // Faz o sort conforme coluna selecionada
+  const sortedList = sortByName.sort((a, b) => {
+    const { column: sortColumn, sort } = order;
+    const NEGATIVE = -1;
+    const POSITIVE = 1;
+    if (sort === 'ASC') {
+      // Checa se o valor é um numero e define o retorno para string e number
+      if (Number(filteredByColumn[0][sortColumn])) {
+        return Number(a[sortColumn]) - Number(b[sortColumn]);
+      } return NEGATIVE;
+    }
+    if (sort === 'DESC') {
+      // Checa se o valor é um numero e define o retorno para string e number
+      if (Number(filteredByColumn[0][sortColumn])) {
+        return Number(b[sortColumn]) - Number(a[sortColumn]);
+      } return POSITIVE;
+    } return NEGATIVE;
+  });
+
   return (
     <table>
       <thead>
@@ -66,7 +93,7 @@ export default function Table() {
       </thead>
       <tbody>
         {
-          filteredByColumn
+          sortedList
             .map(({
               name,
               rotation_period: rotationPeriod,
@@ -83,7 +110,7 @@ export default function Table() {
               url,
             }) => (
               <tr key={ name }>
-                <td>{name}</td>
+                <td data-testid="planet-name">{name}</td>
                 <td>{rotationPeriod}</td>
                 <td>{orbitalPeriod}</td>
                 <td>{diameter}</td>
