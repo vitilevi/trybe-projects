@@ -10,6 +10,13 @@ export default function NumericalFilters() {
   const [column, setColumn] = useState('population');
   const [comparison, setComparison] = useState('maior_que');
   const [value, setValue] = useState(0);
+  const [filters, setFilters] = useState([
+    'population',
+    'orbital_period',
+    'diameter',
+    'rotation_period',
+    'surface_water',
+  ]);
 
   const handleFilterButton = () => {
     const obj = {
@@ -17,6 +24,8 @@ export default function NumericalFilters() {
       comparison,
       value,
     };
+    const filteredSelect = filters.filter((item) => item !== column);
+    setFilters([...filteredSelect]);
     setFilterByNumericValues([...filterByNumericValues, obj]);
   };
 
@@ -29,11 +38,9 @@ export default function NumericalFilters() {
         onChange={ (e) => setColumn(e.target.value) }
         id="column-filter"
       >
-        <option value="population">population</option>
-        <option value="orbital_period">orbital_period</option>
-        <option value="diameter">diameter</option>
-        <option value="rotation_period">rotation_period</option>
-        <option value="surface_water">surface_water</option>
+        {filters.map((item, index) => (
+          <option key={ index } value={ item }>{item}</option>
+        ))}
       </select>
       <select
         data-testid="comparison-filter"
