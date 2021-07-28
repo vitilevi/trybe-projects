@@ -31,4 +31,4 @@
 - 24 - [StarWars Planets Search](https://github.com/vitilevi/trybe-projects/tree/main/StarWars-Planets-Search)
   
   
-*last update: 24/06/21*
+*last update: 28/07/21*
