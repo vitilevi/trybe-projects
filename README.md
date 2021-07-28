@@ -1,7 +1,7 @@
 # Repositório de projetos da Trybe.
 ### Projetos organizados de forma cronológica do curso
   
-### Vanilla JS
+### Vanilla js
 - 1 - [Lessons Learned](https://github.com/vitilevi/trybe-projects/tree/main/Lessons-Learned)
 - 2 - [Playground Functions](https://github.com/vitilevi/trybe-projects/tree/main/Playground-Functions)
 - 3 - [Pixels Art](https://github.com/vitilevi/trybe-projects/tree/main/Pixels-Art)
@@ -15,7 +15,7 @@
 - 11 - [Shopping Cart](https://github.com/vitilevi/trybe-projects/tree/main/Shopping-Cart)
 - 12 - [Mars Pics](https://github.com/vitilevi/trybe-projects/tree/main/Mars-Pics)
 - 13 - [Jest Project](https://github.com/vitilevi/trybe-projects/tree/main/Jest-Project)
-### React.Js
+### React.js
 - 14 - [Movie Cards Library](https://github.com/vitilevi/trybe-projects/tree/main/Movie-Cards-Library)
 - 15 - [Movie Cards Library Stateful](https://github.com/vitilevi/trybe-projects/tree/main/Movie-Cards-Library-Stateful)
 - 16 - [Movie Cards Library CRUD](https://github.com/vitilevi/trybe-projects/tree/main/Movie-Cards-Library-CRUD)
