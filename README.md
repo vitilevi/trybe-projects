@@ -28,7 +28,7 @@
 - 22 - [TrybeWallet](https://github.com/vitilevi/trybe-projects/tree/main/TrybeWallet)
 - 23 - [Trivia React Redux](https://github.com/vitilevi/trybe-projects/tree/main/Trivia-React-Redux)
 ### React.js + Context Api + Hooks
-- 24 - [StarWars Planets](https://github.com/vitilevi/trybe-projects/tree/main/StarWars-Planets-Search)
+- 24 - [StarWars Planets Search](https://github.com/vitilevi/trybe-projects/tree/main/StarWars-Planets-Search)
   
   
 *last update: 24/06/21*
