@@ -22,12 +22,13 @@
 - 17 - [Curiosity Stateful](https://github.com/vitilevi/trybe-projects/tree/main/Curiosity-Stateful)
 - 18 - [Clone Slido](https://github.com/vitilevi/trybe-projects/tree/main/Clone-Slido)
 - 19 - [Frontend Online Store](https://github.com/vitilevi/trybe-projects/tree/main/FrontEnd-Online-Store)
+- 20 - [React Testing Library - RTL](https://github.com/vitilevi/trybe-projects/tree/main/React-Testing-Library)
 ### React.js + Redux
-- 20 - [GitHub Freelance Project](https://github.com/vitilevi/githubproject)
-- 21 - [TrybeWallet](https://github.com/vitilevi/trybe-projects/tree/main/TrybeWallet)
-- 22 - [Trivia React Redux](https://github.com/vitilevi/trybe-projects/tree/main/Trivia-React-Redux)
+- 21 - [GitHub Freelance Project](https://github.com/vitilevi/githubproject)
+- 22 - [TrybeWallet](https://github.com/vitilevi/trybe-projects/tree/main/TrybeWallet)
+- 23 - [Trivia React Redux](https://github.com/vitilevi/trybe-projects/tree/main/Trivia-React-Redux)
 ### React.js + Context Api + Hooks
-- 23 - [StarWars Planets](https://github.com/vitilevi/trybe-projects/tree/main/StarWars-Planets-Search)
+- 24 - [StarWars Planets](https://github.com/vitilevi/trybe-projects/tree/main/StarWars-Planets-Search)
   
   
 *last update: 24/06/21*
