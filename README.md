@@ -24,10 +24,10 @@
 - 19 - [Frontend Online Store](https://github.com/vitilevi/trybe-projects/tree/main/FrontEnd-Online-Store)
 ### React.js + Redux
 - 20 - [GitHub Freelance Project](https://github.com/vitilevi/githubproject)
-- 21 - [TrybeWallet]()
+- 21 - [TrybeWallet](https://github.com/vitilevi/trybe-projects/tree/main/TrybeWallet)
 - 22 - [Trivia React Redux](https://github.com/vitilevi/trybe-projects/tree/main/Trivia-React-Redux)
 ### React.js + Context Api + Hooks
-- 23 - [StarWars Planets]()
+- 23 - [StarWars Planets](https://github.com/vitilevi/trybe-projects/tree/main/StarWars-Planets-Search)
   
   
 *last update: 24/06/21*
